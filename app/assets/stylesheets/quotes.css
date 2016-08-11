@@ -1,0 +1,34 @@
+div{
+	border: 3px solid black;
+	width: 500px;
+	height: 200px;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+  background-color: white;
+}
+
+html{
+  background-image: url(http://media.tumblr.com/2e45d16a4b4a2db6ffbcd5328c2297cb/tumblr_mp0573njbU1rqfh50o1_1280.jpg);
+  background-size: cover;
+}
+
+p{
+  font-family: 'Courier New', Courier;
+}
+
+#quote-text{
+  font-size: 20px;
+}
+
+#new-quote-button{
+  position: absolute;
+  right: 680px;
+  bottom: 250px;
+}
