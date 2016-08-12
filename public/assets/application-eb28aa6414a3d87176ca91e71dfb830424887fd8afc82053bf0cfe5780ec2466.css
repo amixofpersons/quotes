@@ -1,0 +1,53 @@
+div{
+	border: 3px solid black;
+	width: 500px;
+	height: 200px;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+  background-color: white;
+}
+
+html{
+  background-image: url(http://media.tumblr.com/2e45d16a4b4a2db6ffbcd5328c2297cb/tumblr_mp0573njbU1rqfh50o1_1280.jpg);
+  background-size: cover;
+}
+
+p{
+  font-family: 'Courier New', Courier;
+}
+
+#quote-text{
+  font-size: 20px;
+}
+
+#new-quote-button{
+  position: absolute;
+  right: 680px;
+  bottom: 250px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+ */
+
